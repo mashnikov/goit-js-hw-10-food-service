@@ -12,7 +12,7 @@ refs.toggle.addEventListener('change', switchTheme);
 
 function switchTheme() {
   if (refs.body.className === '') {
-    refs.body.classList.add(Theme.LIGHT);
+    refs.body.classList.add(Theme.DARK);
   } else {
     refs.body.classList.toggle(Theme.LIGHT);
     refs.body.classList.toggle(Theme.DARK);
